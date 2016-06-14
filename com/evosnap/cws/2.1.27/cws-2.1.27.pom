@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+  	<groupId>com.evosnap</groupId>
+  	<artifactId>cws-external-parent</artifactId>
+  	<version>2.1.27</version>
+  	<relativePath>../cws-external-parent/</relativePath>
+  </parent>
+  
+  <artifactId>cws</artifactId>
+  <packaging>jar</packaging>
+
+  <name>EVO Snap* CWS</name>
+  <url>http://www.evosnap.com</url>
+  <description>EVO Snap* CWS API.</description>
+  <organization>
+  	<name>EVO Payments International</name>
+  	<url>http://www.evopayments.com/</url>
+  </organization>
+
+  <properties>
+  </properties>
+
+  <dependencies>
+	<!-- Log4j -->
+	<dependency>
+		<groupId>org.apache.logging.log4j</groupId>
+		<artifactId>log4j-core</artifactId>
+		<version>2.3</version>
+	</dependency>
+	
+	<!-- Commons configuration -->
+	<dependency>
+		<groupId>commons-configuration</groupId>
+		<artifactId>commons-configuration</artifactId>
+		<version>1.10</version>
+	</dependency>
+  
+	<!-- CWS Bindings -->
+	<dependency>
+		<groupId>com.evosnap</groupId>
+		<artifactId>cws-bindings</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+
+	<!-- Jackson -->
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-core</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-annotations</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.module</groupId>
+		<artifactId>jackson-module-jaxb-annotations</artifactId>
+		<version>2.4.3</version>
+	</dependency>
+	
+	<!-- Reflections -->
+	<dependency>
+		<groupId>org.reflections</groupId>
+		<artifactId>reflections</artifactId>
+		<version>0.9.10</version>
+	</dependency>
+	
+	<!-- HttpClient -->
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpclient</artifactId>
+		<version>4.5</version>
+	</dependency>
+
+	<!-- CGLIB -->
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>3.1</version>
+	</dependency>
+  </dependencies>
+</project>
