@@ -44,7 +44,6 @@ the software company to properly integrate into thier solution code that best me
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
-		<maven.deployment.repo>c|/enviroments/mvn-repo</maven.deployment.repo>
 	</properties>
 
 	<modules>
