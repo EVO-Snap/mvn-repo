@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.evosnap</groupId>
+		<artifactId>cws-external-parent</artifactId>
+		<version>2.1.28</version>
+		<relativePath>../cws-external-parent/</relativePath>
+	</parent>
+	<artifactId>cws-bindings</artifactId>
+	<packaging>pom</packaging>
+	<name>EVO Snap* CWS Bindings</name>
+	<description>CWS Bindings Parent project.</description>
+
+	<properties>
+		<maven.jaxb2.plugin.version>0.8.1</maven.jaxb2.plugin.version>
+	</properties>
+
+	<modules>
+		<module>../cws-bindings-admin</module>
+		<module>../cws-bindings-cms</module>
+		<module>../cws-bindings-dsb</module>
+		<module>../cws-bindings-sis</module>
+		<module>../cws-bindings-tms</module>
+		<module>../cws-bindings-tps</module>
+	</modules>
+
+</project>
